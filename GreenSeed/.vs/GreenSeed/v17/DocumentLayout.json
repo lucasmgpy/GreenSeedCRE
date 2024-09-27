@@ -7,6 +7,58 @@
       "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\photochallenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\photochallenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\deliverycompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\deliverycompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\communityphotoupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\communityphotoupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\photochallengeparticipation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\photochallengeparticipation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\challengeoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\challengeoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\greenseed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3F39539B-1B7C-4B3E-8625-48A3784EFB81}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -18,19 +70,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Discount.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\Discount.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Discount.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\Discount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T21:03:54.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeliveryCompany.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\DeliveryCompany.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\DeliveryCompany.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\DeliveryCompany.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\DeliveryCompany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T21:03:23.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommunityPhotoUpload.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\CommunityPhotoUpload.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\CommunityPhotoUpload.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\CommunityPhotoUpload.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\CommunityPhotoUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T21:02:51.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhotoChallengeParticipation.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\PhotoChallengeParticipation.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\PhotoChallengeParticipation.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\PhotoChallengeParticipation.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\PhotoChallengeParticipation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T21:02:12.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChallengeOption.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\ChallengeOption.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\ChallengeOption.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\ChallengeOption.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\ChallengeOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T21:00:31.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\appsettings.json",
-              "RelativeDocumentMoniker": "GreenSeed\\appsettings.json",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\appsettings.json",
-              "RelativeToolTip": "GreenSeed\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-27T17:34:57.862Z",
+              "Title": "PhotoChallenge.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\PhotoChallenge.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\PhotoChallenge.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\PhotoChallenge.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\PhotoChallenge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T21:00:21.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\OrderItem.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:59:31.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Order.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:59:23.29Z",
               "EditorCaption": ""
             },
             {
@@ -41,10 +184,87 @@
               "RelativeDocumentMoniker": "GreenSeed\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "GreenSeed\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T17:34:19.547Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\User.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:55:46.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\CartItem.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:58:34.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Cart.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:58:04.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Product.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:57:04.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\Models\\Category.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:56:46.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\appsettings.json",
+              "RelativeDocumentMoniker": "GreenSeed\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed\\appsettings.json",
+              "RelativeToolTip": "GreenSeed\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-27T17:34:57.862Z"
             }
           ]
         }
