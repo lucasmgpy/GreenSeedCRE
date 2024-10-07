@@ -1,0 +1,22 @@
+﻿@model Category
+
+@{
+    ViewBag.Title = $"{ViewBag.Operation} Categoria";
+}
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="CategoryId" />
+    <input type="hidden" asp-for="CategoryId" />
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" name="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" name="Description" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" asp-controller="Category" class="btn btn-outline-dark">Cancel</a>
+</form>

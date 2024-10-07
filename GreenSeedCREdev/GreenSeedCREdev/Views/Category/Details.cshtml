@@ -1,0 +1,35 @@
+﻿@model Category
+@{
+    ViewBag.Title = "Detalhe";
+}
+<h1>@Model.Name Detalhes</h1>
+
+@if (Model.CategoryProducts != null && Model.CategoryProducts.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Categoria</th>
+                <th>Descrição</th>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var categoryProduct in Model.CategoryProducts)
+            {
+                <tr>
+                    <td>@categoryProduct.Category.Name</td>
+                    <td>@categoryProduct.Category.Description</td>
+                    <td>@categoryProduct.Product.Name</td>
+                    <td>@categoryProduct.Product.Price</td>
+                    <td>@categoryProduct.Product.Stock</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
