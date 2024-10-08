@@ -1,0 +1,29 @@
+﻿@model Category
+
+@{
+    ViewBag.Title = "Category Details";
+}
+
+<h1>Category Details</h1>
+
+<div>
+    <h3>@Model.Name</h3>
+    <p>@Model.Description</p>
+
+    <h4>Products in this Category:</h4>
+    <ul>
+        @if (Model.Products != null && Model.Products.Any())
+        {
+            foreach (var product in Model.Products)
+            {
+                <li>@product.Name - @product.Price.ToString("C")</li>
+            }
+        }
+        else
+        {
+            <li>No products in this category.</li>
+        }
+    </ul>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

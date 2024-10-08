@@ -1,0 +1,317 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GreenSeedCREtestes.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GreenSeedCREtestes.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\09e9244c-f771-4842-9f29-8be3115fe53c_greensingular.png",
+      "PackagePath": "staticwebassets\\images\\09e9244c-f771-4842-9f29-8be3115fe53c_greensingular.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\18ccbfc0-88f5-4682-b21b-33bce1626730_greensingular.png",
+      "PackagePath": "staticwebassets\\images\\18ccbfc0-88f5-4682-b21b-33bce1626730_greensingular.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\517a108e-35ce-415a-954b-12ff7c0407a2_GREENleft.png",
+      "PackagePath": "staticwebassets\\images\\517a108e-35ce-415a-954b-12ff7c0407a2_GREENleft.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\6dd3802c-2799-4bd3-a233-45e4afbb84b5_GREENleft.png",
+      "PackagePath": "staticwebassets\\images\\6dd3802c-2799-4bd3-a233-45e4afbb84b5_GREENleft.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\9762e902-4d6e-478c-b518-0a9b33e3449e_greensingular.png",
+      "PackagePath": "staticwebassets\\images\\9762e902-4d6e-478c-b518-0a9b33e3449e_greensingular.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\a2f17532-a6fa-4671-80aa-7db646126890_GREENleft.png",
+      "PackagePath": "staticwebassets\\images\\a2f17532-a6fa-4671-80aa-7db646126890_GREENleft.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\a9b4d051-8fc0-434c-b90e-6ef7754e8ebc_GREENleft.png",
+      "PackagePath": "staticwebassets\\images\\a9b4d051-8fc0-434c-b90e-6ef7754e8ebc_GREENleft.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\ae693610-d765-411a-b496-2c2fa629d3f2_ivy.jpg",
+      "PackagePath": "staticwebassets\\images\\ae693610-d765-411a-b496-2c2fa629d3f2_ivy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\af0f0fec-ce90-4aac-87b6-20a7489dbabe_GREENleft.png",
+      "PackagePath": "staticwebassets\\images\\af0f0fec-ce90-4aac-87b6-20a7489dbabe_GREENleft.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\bb345c54-de2e-4022-9f8f-7526ac08816f_GREENleft.png",
+      "PackagePath": "staticwebassets\\images\\bb345c54-de2e-4022-9f8f-7526ac08816f_GREENleft.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\d5c34124-8da5-40f3-9682-d52daee99528_GREENleft.png",
+      "PackagePath": "staticwebassets\\images\\d5c34124-8da5-40f3-9682-d52daee99528_GREENleft.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\ef3ff661-58d6-4983-bc73-86d3bb186fac_ivy.jpg",
+      "PackagePath": "staticwebassets\\images\\ef3ff661-58d6-4983-bc73-86d3bb186fac_ivy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\images\\greensingular.png",
+      "PackagePath": "staticwebassets\\images\\greensingular.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GreenSeedCREtestes.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GreenSeedCREtestes.props",
+      "PackagePath": "build\\GreenSeedCREtestes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GreenSeedCREtestes.props",
+      "PackagePath": "buildMultiTargeting\\GreenSeedCREtestes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GreenSeedCREtestes.props",
+      "PackagePath": "buildTransitive\\GreenSeedCREtestes.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

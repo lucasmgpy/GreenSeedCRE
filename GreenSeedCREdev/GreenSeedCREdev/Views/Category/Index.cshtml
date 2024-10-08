@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Category>
+
+    @{
+        ViewBag.Title = "Categorias";
+    }
+
+<a asp-action="Create">Nova Categoria</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Category i in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => i.Name)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@i.CategoryId">Details</a>
+                    <a asp-action="Edit" asp-route-id="@i.CategoryId">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@i.CategoryId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
