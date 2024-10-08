@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenSeedCREtestes", "GreenSeedCREdev\GreenSeedCREtestes.csproj", "{AA9F7A68-8739-4474-A1B0-F388B790E671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenSeedCRE", "GreenSeedCREdev\GreenSeedCRE.csproj", "{AA9F7A68-8739-4474-A1B0-F388B790E671}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

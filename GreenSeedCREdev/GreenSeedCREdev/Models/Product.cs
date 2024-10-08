@@ -10,7 +10,7 @@ namespace GreenSeedCREdev.Models
         [Required(ErrorMessage = "O nome do produto é obrigatório.")]
         public string? Name { get; set; }
         public string? Description { get; set; }
-        //[Required(ErrorMessage = "O preço é obrigatório.")]
+        [Required(ErrorMessage = "O preço é obrigatório.")]
         public decimal Price { get; set; }
         public int Stock { get; set; }
         [Required(ErrorMessage = "A categoria é obrigatória.")]

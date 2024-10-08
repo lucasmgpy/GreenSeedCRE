@@ -8573,11 +8573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\GreenSeedCREtestes.csproj",
-      "projectName": "GreenSeedCREtestes",
-      "projectPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\GreenSeedCREtestes.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\GreenSeedCRE.csproj",
+      "projectName": "GreenSeedCRE",
+      "projectPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\GreenSeedCRE.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCREtestes\\GreenSeedCREdev\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
