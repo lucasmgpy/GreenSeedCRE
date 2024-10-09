@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseedcredev\\greenseedcredev\\views\\communityphotoupload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|solutionrelative:greenseedcredev\\views\\communityphotoupload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseedcredev\\greenseedcredev\\controllers\\communityphotouploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|solutionrelative:greenseedcredev\\controllers\\communityphotouploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseedcredev\\greenseedcredev\\controllers\\photochallenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|solutionrelative:greenseedcredev\\controllers\\photochallenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseedcredev\\greenseedcredev\\models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|solutionrelative:greenseedcredev\\models\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseedcredev\\greenseedcredev\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA9F7A68-8739-4474-A1B0-F388B790E671}|GreenSeedCREdev\\GreenSeedCRE.csproj|solutionrelative:greenseedcredev\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhotoChallenge.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Controllers\\PhotoChallenge.cs",
+              "RelativeDocumentMoniker": "GreenSeedCREdev\\Controllers\\PhotoChallenge.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Controllers\\PhotoChallenge.cs",
+              "RelativeToolTip": "GreenSeedCREdev\\Controllers\\PhotoChallenge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:49:38.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommunityPhotoUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Controllers\\CommunityPhotoUploadController.cs",
+              "RelativeDocumentMoniker": "GreenSeedCREdev\\Controllers\\CommunityPhotoUploadController.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Controllers\\CommunityPhotoUploadController.cs",
+              "RelativeToolTip": "GreenSeedCREdev\\Controllers\\CommunityPhotoUploadController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:42:50.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Models\\IRepository.cs",
+              "RelativeDocumentMoniker": "GreenSeedCREdev\\Models\\IRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Models\\IRepository.cs",
+              "RelativeToolTip": "GreenSeedCREdev\\Models\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T20:42:43.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GreenSeedCREdev\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GreenSeedCREdev\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCAAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T20:31:21.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Views\\CommunityPhotoUpload\\Index.cshtml",
+              "RelativeDocumentMoniker": "GreenSeedCREdev\\Views\\CommunityPhotoUpload\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\Views\\CommunityPhotoUpload\\Index.cshtml",
+              "RelativeToolTip": "GreenSeedCREdev\\Views\\CommunityPhotoUpload\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T20:30:50.978Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -20,6 +20,7 @@ namespace GreenSeedCREdev.Data
         public DbSet<ChallengeOption> ChallengeOptions { get; set; }
         public DbSet<PhotoChallengeParticipation> PhotoChallengeParticipations { get; set; }
         public DbSet<CommunityPhotoUpload> CommunityPhotoUploads { get; set; }
+        public DbSet<CommunityPhotoComment> CommunityPhotoComments { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

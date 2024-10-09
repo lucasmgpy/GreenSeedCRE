@@ -1,7 +1,8 @@
-using GreenSeedCREdev.Data;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using GreenSeedCREdev.Models;
+using GreenSeedCREdev.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Build.Execution;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,9 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
 
 builder.Services.AddMemoryCache();
 builder.Services.AddSession(options =>
@@ -50,3 +54,18 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+
+//async Task CreateRolesAsync(RoleManager<IdentityRole> roleManager)
+//{
+//    string[] roleNames = { "Admin", "User" };
+//    IdentityResult roleResult;
+
+//    foreach (var roleName in roleNames)
+//    {
+//        var roleExists = await roleManager.RoleExistsAsync(roleName);
+//        if (!roleExists)
+//        {
+//            roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
+//        }
+//    }
+//}

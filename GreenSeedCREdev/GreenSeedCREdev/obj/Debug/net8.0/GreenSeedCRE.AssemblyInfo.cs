@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenSeedCRE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+058bf518b94dd823ecacf526336abffe153b1776")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d823e2e6ff577b0e5231db0b5a289e0367ed4ac6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenSeedCRE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenSeedCRE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

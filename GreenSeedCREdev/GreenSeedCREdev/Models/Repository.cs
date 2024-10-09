@@ -30,10 +30,10 @@ namespace GreenSeedCREdev.Models
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
-        {
-            return await _dbSet.ToListAsync();
-        }
+        //public async Task<IEnumerable<T>> GetAllAsync()
+        //{
+        //    return await _dbSet.ToListAsync();
+        //}
 
         public async Task<T> GetByIdAsync(int id)
         {
@@ -92,5 +92,37 @@ namespace GreenSeedCREdev.Models
             return await query.ToListAsync();
 
         }
+
+
+        public async Task<IEnumerable<T>> GetAllAsync()
+        {
+            return await GetAllAsync(new QueryOptions<T>());
+        }
+
+
+        public async Task<IEnumerable<T>> GetAllAsync(QueryOptions<T> options)
+        {
+            IQueryable<T> query = _dbSet;
+
+            if (options.HasWhere)
+            {
+                query = query.Where(options.Where);
+            }
+
+            foreach (string include in options.GetIncludes())
+            {
+                query = query.Include(include);
+            }
+
+            if (options.HasOrderBy)
+            {
+                query = options.OrderByDirection == "DESC" ?
+                    query.OrderByDescending(options.OrderBy) :
+                    query.OrderBy(options.OrderBy);
+            }
+
+            return await query.ToListAsync();
+        }
+
     }
 }
