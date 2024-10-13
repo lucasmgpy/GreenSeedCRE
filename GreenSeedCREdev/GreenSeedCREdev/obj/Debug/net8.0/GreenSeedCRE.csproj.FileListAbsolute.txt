@@ -286,3 +286,8 @@ C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\obj\Deb
 C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\obj\Debug\net8.0\GreenSeedCRE.pdb
 C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\obj\Debug\net8.0\GreenSeedCRE.genruntimeconfig.cache
 C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\obj\Debug\net8.0\ref\GreenSeedCRE.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeedCREdev\GreenSeedCREdev\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
