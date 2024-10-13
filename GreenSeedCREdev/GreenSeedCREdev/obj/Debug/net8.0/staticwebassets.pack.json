@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\517a108e-35ce-415a-954b-12ff7c0407a2_GREENleft.png"
     },
     {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\wwwroot\\images\\6b5deb8b-e299-48a3-ac71-a6f09c462aa2_GREENleft.png",
+      "PackagePath": "staticwebassets\\images\\6b5deb8b-e299-48a3-ac71-a6f09c462aa2_GREENleft.png"
+    },
+    {
       "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\wwwroot\\images\\6dd3802c-2799-4bd3-a233-45e4afbb84b5_GREENleft.png",
       "PackagePath": "staticwebassets\\images\\6dd3802c-2799-4bd3-a233-45e4afbb84b5_GREENleft.png"
     },
@@ -303,18 +307,6 @@
     {
       "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\wwwroot\\uploads\\22c5b486-881e-4f09-8154-6defd8975c6f.jpg",
-      "PackagePath": "staticwebassets\\uploads\\22c5b486-881e-4f09-8154-6defd8975c6f.jpg"
-    },
-    {
-      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\wwwroot\\uploads\\6bb73e36-127f-41bd-ad59-f702b5f31994.jpg",
-      "PackagePath": "staticwebassets\\uploads\\6bb73e36-127f-41bd-ad59-f702b5f31994.jpg"
-    },
-    {
-      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeedCREdev\\GreenSeedCREdev\\wwwroot\\uploads\\7873fb35-ab98-4c35-87f6-169b10f0ff6e.jpg",
-      "PackagePath": "staticwebassets\\uploads\\7873fb35-ab98-4c35-87f6-169b10f0ff6e.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GreenSeedCRE.Microsoft.AspNetCore.StaticWebAssets.props",
