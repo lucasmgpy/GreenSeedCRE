@@ -1,0 +1,18 @@
+﻿@model GreenSeed.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Excluir Usuário";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="alert alert-danger" role="alert">
+    <h4 class="alert-heading">Tem certeza?</h4>
+    <p>Você está prestes a excluir o usuário <strong>@Model.Email</strong>. Essa ação não pode ser desfeita.</p>
+    <hr>
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Excluir</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

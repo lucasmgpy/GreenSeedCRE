@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Adicionar Novo Usuário";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Create" method="post" class="needs-validation" novalidate>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required />
+        <div class="invalid-feedback">
+            Por favor, insira um email válido.
+        </div>
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="password" name="password" required />
+        <div class="invalid-feedback">
+            Por favor, insira uma senha.
+        </div>
+    </div>
+    <div class="mb-3">
+        <label for="role" class="form-label">Papel</label>
+        <select class="form-select" id="role" name="role" required>
+            <option value="" disabled selected>Selecione um papel</option>
+            <option value="User">User</option>
+            <option value="Admin">Admin</option>
+        </select>
+        <div class="invalid-feedback">
+            Por favor, selecione um papel.
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <script>
+        // Script para habilitar a validação de formulários Bootstrap
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.needs-validation')
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+}

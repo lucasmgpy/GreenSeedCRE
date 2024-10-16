@@ -1,0 +1,85 @@
+﻿@model IEnumerable<GreenSeed.Models.CommunityPhotoUpload>
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<GreenSeed.Models.ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Comunidade - Identificação de Plantas";
+    var currentUser = await UserManager.GetUserAsync(User);
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Formulário para nova publicação -->
+<div class="new-post">
+    <form asp-action="Create" enctype="multipart/form-data" method="post">
+        <div class="form-group">
+            <label for="Description">Descrição</label>
+            <textarea name="Description" class="form-control" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="Photo">Foto</label>
+            <input type="file" name="Photo" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Publicar</button>
+    </form>
+</div>
+
+<hr />
+
+<!-- Lista de publicações -->
+@foreach (var item in Model)
+{
+    <div class="post">
+        <p>
+            <strong>@item.User.UserName</strong> em @item.UploadDate.ToString("dd/MM/yyyy HH:mm")
+
+            <!-- Botão de apagar publicação -->
+            @if (item.UserId == currentUser.Id)
+            {
+                <form asp-action="Delete" method="post" style="display:inline;">
+                    <input type="hidden" name="id" value="@item.CommunityPhotoUploadId" />
+                    <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja apagar esta publicação?');">Apagar</button>
+                </form>
+            }
+        </p>
+        <p>@item.Description</p>
+        <img src="@item.PhotoUrl" alt="Foto da publicação" class="img-fluid" />
+
+        <!-- Comentários -->
+        <div class="comments">
+            <h5>Comentários</h5>
+            @if (item.Comments != null && item.Comments.Any())
+            {
+                foreach (var comment in item.Comments.OrderBy(c => c.CommentDate))
+                {
+                    <p>
+                        <strong>@comment.User.UserName</strong>: @comment.CommentText
+
+                        <!-- Botão de apagar comentário -->
+                        @if (comment.UserId == currentUser.Id || item.UserId == currentUser.Id)
+                        {
+                            <form asp-action="DeleteComment" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@comment.CommunityPhotoCommentId" />
+                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja apagar este comentário?');">Apagar</button>
+                            </form>
+                        }
+                    </p>
+                }
+            }
+            else
+            {
+                <p>Sem comentários.</p>
+            }
+
+            <!-- Formulário para novo comentário -->
+            <form asp-action="AddComment" method="post">
+                <input type="hidden" name="id" value="@item.CommunityPhotoUploadId" />
+                <div class="form-group">
+                    <input type="text" name="commentText" class="form-control" placeholder="Escreva um comentário..." required />
+                </div>
+                <button type="submit" class="btn btn-secondary">Comentar</button>
+            </form>
+        </div>
+    </div>
+    <hr />
+}
