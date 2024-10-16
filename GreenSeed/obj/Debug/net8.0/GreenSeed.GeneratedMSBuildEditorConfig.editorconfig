@@ -17,131 +17,159 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GreenSeed
 build_property.RootNamespace = GreenSeed
-build_property.ProjectDir = C:\Users\lucas\source\repos\GreenSeed\GreenSeed\
+build_property.ProjectDir = C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\lucas\source\repos\GreenSeed\GreenSeed
+build_property.MSBuildProjectDirectory = C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Admin/Views/Users/Create.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Challenges/ArchivedChallenges.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbGxlbmdlc1xBcmNoaXZlZENoYWxsZW5nZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Challenges/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbGxlbmdlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Challenges/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbGxlbmdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Challenges/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbGxlbmdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Challenges/Ranking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbGxlbmdlc1xSYW5raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Admin/Views/Users/Delete.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Admin/Views/Users/Edit.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Admin/Views/Users/Index.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Category/Create.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Category/Delete.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Category/Details.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Category/Edit.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Category/Index.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/CommunityPhotoUpload/Index.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Challenges/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbGxlbmdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Challenges/Ranking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbGxlbmdlc1xSYW5raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/CommunityPhotoUpload/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5UGhvdG9VcGxvYWRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Home/Index.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Home/Privacy.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Order/Cart.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Order/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Order/Create.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Order/ViewOrders.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Order/ViewOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcVmlld09yZGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Product/AddEdit.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Product/AddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Product/Index.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Shared/Error.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/_ViewImports.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/_ViewStart.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/source/repos/GreenSeed/GreenSeed/Views/Shared/_Layout.cshtml]
+[C:/Users/lucas/source/repos/GreenSeedCRE/GreenSeed/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bnitw9puws

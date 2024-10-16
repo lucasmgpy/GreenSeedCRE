@@ -1,0 +1,70 @@
+﻿@model GreenSeed.Models.ChallengeViewModel
+
+@{
+    ViewData["Title"] = "Desafio do Dia";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Ranking" class="btn btn-info">Ranking</a>
+</p>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (Model.Challenge == null)
+{
+    <p>Nenhum desafio ativo no momento.</p>
+}
+else
+{
+    <div class="card mb-3">
+        <img src="~/@Model.Challenge.ImagePath" class="card-img-top" alt="Desafio" />
+        <div class="card-body">
+            <h5 class="card-title">Identifique a planta ou flor:</h5>
+            @if (Model.HasResponded && Model.UserResponse != null)
+            {
+                if (Model.UserResponse.IsCorrect)
+                {
+                    <div class="alert alert-success">Resposta correta! Você recebeu @Model.UserResponse.PointsAwarded pontos.</div>
+                }
+                else
+                {
+                    <div class="alert alert-danger">Resposta errada!</div>
+                }
+            }
+            else
+            {
+                <form asp-action="Respond" method="post">
+                    <input type="hidden" name="challengeId" value="@Model.Challenge.Id" />
+                    <div class="form-group">
+                        @for (int i = 0; i < Model.Challenge.GetOptions().Count; i++)
+                        {
+                            var optionText = Model.Challenge.GetOptions()[i];
+                            int optionNumber = i + 1;
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="selectedOption" id="option@optionNumber" value="@optionNumber" required />
+                                <label class="form-check-label" for="option@optionNumber">
+                                    @optionText
+                                </label>
+                            </div>
+                        }
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2">Responder</button>
+                </form>
+            }
+        </div>
+    </div>
+}

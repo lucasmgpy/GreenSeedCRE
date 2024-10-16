@@ -17,11 +17,28 @@ namespace GreenSeed.Data
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<CommunityPhotoUpload> CommunityPhotoUploads { get; set; }
         public DbSet<CommunityPhotoComment> CommunityPhotoComments { get; set; }
+        public DbSet<Challenge> Challenges { get; set; }
+        public DbSet<ChallengeResponse> ChallengeResponses { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Challenge>()
+                .HasMany(c => c.ChallengeResponses)
+                .WithOne(cr => cr.Challenge)
+                .HasForeignKey(cr => cr.ChallengeId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<ChallengeResponse>()
+                .HasOne(cr => cr.User)
+                .WithMany()
+                .HasForeignKey(cr => cr.UserId)
+                .OnDelete(DeleteBehavior.Restrict); // Evita a exclusão em cascata de respostas ao excluir um usuário
+
+
+
 
             modelBuilder.Entity<Order>()
                 .Property(o => o.TotalAmount)

@@ -8570,11 +8570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\GreenSeed\\GreenSeed\\GreenSeed.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed.csproj",
       "projectName": "GreenSeed",
-      "projectPath": "C:\\Users\\lucas\\source\\repos\\GreenSeed\\GreenSeed\\GreenSeed.csproj",
+      "projectPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\GreenSeed.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\source\\repos\\GreenSeed\\GreenSeed\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

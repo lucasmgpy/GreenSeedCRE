@@ -1,0 +1,55 @@
+﻿@model IEnumerable<GreenSeed.Models.Challenge>
+@{
+    ViewData["Title"] = "Desafios Ativos";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Criar Novo Desafio</a>
+    <a asp-action="ArchivedChallenges" class="btn btn-secondary">Desafios Arquivados</a>
+    <a asp-action="Ranking" class="btn btn-info">Ranking</a>
+</p>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Imagem</th>
+            <th>Opções</th>
+            <th>Opção Correta</th>
+            <th>Data de Criação</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var challenge in Model)
+        {
+            <tr>
+                <td>
+                    <img src="~/@challenge.ImagePath" alt="Imagem do Desafio" width="150" />
+                </td>
+                <td>
+                    <ul>
+                        <li>@challenge.Option1</li>
+                        <li>@challenge.Option2</li>
+                        <li>@challenge.Option3</li>
+                        <li>@challenge.Option4</li>
+                    </ul>
+                </td>
+                <td>Opção @challenge.CorrectOption</td>
+                <td>@challenge.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@challenge.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-action="Archive" asp-route-id="@challenge.Id" class="btn btn-danger btn-sm">Arquivar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

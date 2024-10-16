@@ -1,0 +1,41 @@
+﻿@model IEnumerable<GreenSeed.Models.UserRankingViewModel>
+@{
+    ViewData["Title"] = "Ranking de Pontuação";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Index" class="btn btn-secondary">Voltar aos Desafios</a>
+</p>
+
+@if (!Model.Any())
+{
+    <p>Nenhum dado de ranking disponível.</p>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Usuário</th>
+                <th>Pontos</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int position = 1;
+            }
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@position</td>
+                    <td>@user.UserEmail</td>
+                    <td>@user.TotalPoints</td>
+                </tr>
+                position++;
+            }
+        </tbody>
+    </table>
+}

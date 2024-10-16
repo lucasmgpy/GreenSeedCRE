@@ -1,0 +1,78 @@
+﻿@model GreenSeed.ViewModels.EditChallengeViewModel
+
+@{
+    ViewData["Title"] = "Editar Desafio";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@Html.ValidationSummary(true, "", new { @class = "text-danger" }) <!-- Adicionado -->
+
+<form asp-action="Edit" enctype="multipart/form-data" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="ExistingImagePath" /> <!-- Adicionado -->
+
+    <div class="form-group mb-3">
+        <label asp-for="ImageFile" class="form-label">Nova Imagem do Desafio (Opcional)</label>
+        <input type="file" asp-for="ImageFile" class="form-control" accept="image/*" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+        @if (!string.IsNullOrEmpty(Model.ExistingImagePath))
+        {
+            <div class="mt-2">
+                <img src="~/@Model.ExistingImagePath" alt="Imagem Atual" width="200" />
+            </div>
+        }
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Option1" class="form-label">Opção 1</label>
+        <input asp-for="Option1" class="form-control" required />
+        <span asp-validation-for="Option1" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="Option2" class="form-label">Opção 2</label>
+        <input asp-for="Option2" class="form-control" required />
+        <span asp-validation-for="Option2" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="Option3" class="form-label">Opção 3</label>
+        <input asp-for="Option3" class="form-control" required />
+        <span asp-validation-for="Option3" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="Option4" class="form-label">Opção 4</label>
+        <input asp-for="Option4" class="form-control" required />
+        <span asp-validation-for="Option4" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="CorrectOption" class="form-label">Opção Correta</label>
+        <select asp-for="CorrectOption" class="form-control" required>
+            <option value="">-- Selecione --</option>
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+            <option value="4">Opção 4</option>
+        </select>
+        <span asp-validation-for="CorrectOption" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

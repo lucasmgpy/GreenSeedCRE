@@ -138,6 +138,88 @@ namespace GreenSeed.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("GreenSeed.Models.Challenge", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CorrectOption")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsArchived")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Option1")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Option2")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Option3")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Option4")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Challenges");
+                });
+
+            modelBuilder.Entity("GreenSeed.Models.ChallengeResponse", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ChallengeId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsCorrect")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("PointsAwarded")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RespondedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("SelectedOption")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ChallengeId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ChallengeResponses");
+                });
+
             modelBuilder.Entity("GreenSeed.Models.CommunityPhotoComment", b =>
                 {
                     b.Property<int>("CommunityPhotoCommentId")
@@ -526,6 +608,25 @@ namespace GreenSeed.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("GreenSeed.Models.ChallengeResponse", b =>
+                {
+                    b.HasOne("GreenSeed.Models.Challenge", "Challenge")
+                        .WithMany("ChallengeResponses")
+                        .HasForeignKey("ChallengeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GreenSeed.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Challenge");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("GreenSeed.Models.CommunityPhotoComment", b =>
                 {
                     b.HasOne("GreenSeed.Models.CommunityPhotoUpload", "CommunityPhotoUpload")
@@ -654,6 +755,11 @@ namespace GreenSeed.Data.Migrations
             modelBuilder.Entity("GreenSeed.Models.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("GreenSeed.Models.Challenge", b =>
+                {
+                    b.Navigation("ChallengeResponses");
                 });
 
             modelBuilder.Entity("GreenSeed.Models.CommunityPhotoUpload", b =>

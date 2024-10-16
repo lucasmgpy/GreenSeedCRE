@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\ViewModels\" />
+    <Folder Include="wwwroot\images\desafios\" />
   </ItemGroup>
 
 </Project>
