@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\models\\editchallengeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\editchallengeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\models\\createchallengeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\createchallengeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\areas\\admin\\controllers\\challengescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\areas\\admin\\controllers\\challengescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\areas\\admin\\views\\challenges\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\areas\\admin\\views\\challenges\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\areas\\admin\\views\\challenges\\archivedchallenges.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\areas\\admin\\views\\challenges\\archivedchallenges.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\areas\\admin\\views\\challenges\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\areas\\admin\\views\\challenges\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\services\\iblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\services\\iblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,106 +31,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "GreenSeed\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "GreenSeed\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEoAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T22:50:29.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditChallengeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\EditChallengeViewModel.cs",
-              "RelativeDocumentMoniker": "GreenSeed\\Models\\EditChallengeViewModel.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\EditChallengeViewModel.cs",
-              "RelativeToolTip": "GreenSeed\\Models\\EditChallengeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T22:29:41.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateChallengeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\CreateChallengeViewModel.cs",
-              "RelativeDocumentMoniker": "GreenSeed\\Models\\CreateChallengeViewModel.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\CreateChallengeViewModel.cs",
-              "RelativeToolTip": "GreenSeed\\Models\\CreateChallengeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T21:59:54.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Areas\\Admin\\Views\\Challenges\\Create.cshtml",
-              "RelativeDocumentMoniker": "GreenSeed\\Areas\\Admin\\Views\\Challenges\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Areas\\Admin\\Views\\Challenges\\Create.cshtml",
-              "RelativeToolTip": "GreenSeed\\Areas\\Admin\\Views\\Challenges\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T21:57:57.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Areas\\Admin\\Views\\Challenges\\Edit.cshtml",
-              "RelativeDocumentMoniker": "GreenSeed\\Areas\\Admin\\Views\\Challenges\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Areas\\Admin\\Views\\Challenges\\Edit.cshtml",
-              "RelativeToolTip": "GreenSeed\\Areas\\Admin\\Views\\Challenges\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T21:52:04.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChallengesController.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Areas\\Admin\\Controllers\\ChallengesController.cs",
-              "RelativeDocumentMoniker": "GreenSeed\\Areas\\Admin\\Controllers\\ChallengesController.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Areas\\Admin\\Controllers\\ChallengesController.cs",
-              "RelativeToolTip": "GreenSeed\\Areas\\Admin\\Controllers\\ChallengesController.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAswPkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T21:50:26.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArchivedChallenges.cshtml",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Areas\\Admin\\Views\\Challenges\\ArchivedChallenges.cshtml",
-              "RelativeDocumentMoniker": "GreenSeed\\Areas\\Admin\\Views\\Challenges\\ArchivedChallenges.cshtml",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Areas\\Admin\\Views\\Challenges\\ArchivedChallenges.cshtml",
-              "RelativeToolTip": "GreenSeed\\Areas\\Admin\\Views\\Challenges\\ArchivedChallenges.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T21:40:01.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Program.cs",
               "RelativeDocumentMoniker": "GreenSeed\\Program.cs",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Program.cs",
               "RelativeToolTip": "GreenSeed\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T21:34:11.871Z",
+              "WhenOpened": "2024-10-20T21:33:52.103Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Services\\BlobService.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Services\\BlobService.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Services\\BlobService.cs",
+              "RelativeToolTip": "GreenSeed\\Services\\BlobService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:32:56.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBlobService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Services\\IBlobService.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Services\\IBlobService.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Services\\IBlobService.cs",
+              "RelativeToolTip": "GreenSeed\\Services\\IBlobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:32:04.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\appsettings.json",
+              "RelativeDocumentMoniker": "GreenSeed\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\appsettings.json",
+              "RelativeToolTip": "GreenSeed\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T21:24:23.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

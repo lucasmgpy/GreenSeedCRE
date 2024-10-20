@@ -3,6 +3,7 @@ using GreenSeed.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http.Features;
+using GreenSeed.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +41,9 @@ builder.Services.Configure<FormOptions>(options =>
 {
     options.MultipartBodyLengthLimit = 10 * 1024 * 1024; // Limite de 10MB
 });
+
+builder.Services.AddScoped<IBlobService, BlobService>(); //injeção do serviço para manipulação de arquivos
+builder.Services.AddScoped<OrderQueueService>(); //injeção do serviço para processamento das encomendas
 
 var app = builder.Build();
 

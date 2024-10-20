@@ -583,3 +583,7 @@ C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\obj\Debug\net8.0\refint\Green
 C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\obj\Debug\net8.0\GreenSeed.pdb
 C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\obj\Debug\net8.0\GreenSeed.genruntimeconfig.cache
 C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\obj\Debug\net8.0\ref\GreenSeed.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\bin\Debug\net8.0\Azure.Storage.Common.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\bin\Debug\net8.0\Azure.Storage.Queues.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\lucas\source\repos\GreenSeedCRE\GreenSeed\bin\Debug\net8.0\System.IO.Hashing.dll

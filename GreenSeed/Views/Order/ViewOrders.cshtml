@@ -1,13 +1,16 @@
 ﻿@model IEnumerable<GreenSeed.Models.Order>
 @{
-        ViewData["Title"] = "Minhas Encomendas";
+    ViewData["Title"] = "Minhas Encomendas";
 }
+<h1>Minhas Encomendas</h1>
+
 <table class="table table-bordered">
     <thead>
         <tr>
             <th>ID Encomenda</th>
             <th>Data Encomenda</th>
             <th>Valor Total</th>
+            <th>Status</th> <!-- Nova coluna -->
             <th>Itens a Encomendar</th>
         </tr>
     </thead>
@@ -16,8 +19,9 @@
         {
             <tr>
                 <td>@order.OrderId</td>
-                <td>@order.OrderDate.ToString("MM/dd/yyyy")</td>
+                <td>@order.OrderDate.ToString("dd/MM/yyyy")</td>
                 <td>@order.TotalAmount.ToString("C")</td>
+                <td>@order.Status</td> <!-- Exibir o status -->
                 <td>
                     <ul>
                         @foreach (var item in order.OrderItems)

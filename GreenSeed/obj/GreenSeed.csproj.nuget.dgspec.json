@@ -45,6 +45,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.22.2, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.20.1, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"

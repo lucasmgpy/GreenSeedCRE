@@ -1,8 +1,10 @@
-﻿using GreenSeed.Data;
-using GreenSeed.Models;
-using Microsoft.AspNetCore.Authorization;
+﻿// Controllers/OrderController.cs
+using GreenSeed.Services; // Adicione esta linha no topo
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using GreenSeed.Data;
+using GreenSeed.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GreenSeed.Controllers
 {
@@ -12,28 +14,26 @@ namespace GreenSeed.Controllers
         private Repository<Product> _products;
         private Repository<Order> _orders;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly OrderQueueService _queueService; // Adicione este campo
 
-        public OrderController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
+        public OrderController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, OrderQueueService queueService)
         {
             _context = context;
             _userManager = userManager;
             _products = new Repository<Product>(context);
             _orders = new Repository<Order>(context);
+            _queueService = queueService; // Inicialize no construtor
         }
 
         [Authorize]
         [HttpGet]
         public async Task<IActionResult> Create()
         {
-            //ViewBag.Products = await _products.GetAllAsync();
-
-            //Retrieve or create an OrderViewModel from session or other state management
             var model = HttpContext.Session.Get<OrderViewModel>("OrderViewModel") ?? new OrderViewModel
             {
                 OrderItems = new List<OrderItemViewModel>(),
                 Products = await _products.GetAllAsync()
             };
-
 
             return View(model);
         }
@@ -48,17 +48,14 @@ namespace GreenSeed.Controllers
                 return NotFound();
             }
 
-            // Retrieve or create an OrderViewModel from session or other state management
             var model = HttpContext.Session.Get<OrderViewModel>("OrderViewModel") ?? new OrderViewModel
             {
                 OrderItems = new List<OrderItemViewModel>(),
                 Products = await _products.GetAllAsync()
             };
 
-            // Check if the product is already in the order
             var existingItem = model.OrderItems.FirstOrDefault(oi => oi.ProductId == prodId);
 
-            // If the product is already in the order, update the quantity
             if (existingItem != null)
             {
                 existingItem.Quantity += prodQty;
@@ -74,13 +71,10 @@ namespace GreenSeed.Controllers
                 });
             }
 
-            // Update the total amount
             model.TotalAmount = model.OrderItems.Sum(oi => oi.Price * oi.Quantity);
 
-            // Save updated OrderViewModel to session
             HttpContext.Session.Set("OrderViewModel", model);
 
-            // Redirect back to Create to show updated order items
             return RedirectToAction("Create", model);
         }
 
@@ -88,8 +82,6 @@ namespace GreenSeed.Controllers
         [Authorize]
         public async Task<IActionResult> Cart()
         {
-
-            // Retrieve the OrderViewModel from session or other state management
             var model = HttpContext.Session.Get<OrderViewModel>("OrderViewModel");
 
             if (model == null || model.OrderItems.Count == 0)
@@ -110,15 +102,16 @@ namespace GreenSeed.Controllers
                 return RedirectToAction("Create");
             }
 
-            // Create a new Order entity
+            // Criar uma nova entidade Order com Status definido
             Order order = new Order
             {
                 OrderDate = DateTime.Now,
                 TotalAmount = model.TotalAmount,
-                UserId = _userManager.GetUserId(User)
+                UserId = _userManager.GetUserId(User),
+                Status = "Pending" // Definir o status inicial
             };
 
-            // Add OrderItems to the Order entity
+            // Adicionar OrderItems à entidade Order
             foreach (var item in model.OrderItems)
             {
                 order.OrderItems.Add(new OrderItem
@@ -129,13 +122,16 @@ namespace GreenSeed.Controllers
                 });
             }
 
-            // Save the Order entity to the database
+            // Salvar a entidade Order no banco de dados
             await _orders.AddAsync(order);
 
-            // Clear the OrderViewModel from session or other state management
+            // Enviar mensagem para a fila
+            await _queueService.SendOrderStatusAsync(order);
+
+            // Limpar o OrderViewModel da sessão
             HttpContext.Session.Remove("OrderViewModel");
 
-            // Redirect to the Order Confirmation page
+            // Redirecionar para a página de confirmação da encomenda
             return RedirectToAction("ViewOrders");
         }
 
@@ -147,13 +143,12 @@ namespace GreenSeed.Controllers
 
             var userOrders = await _orders.GetAllByIdAsync(userId, "UserId", new QueryOptions<Order>
             {
-                Includes = "OrderItems.Product"
+                Includes = "OrderItems.Product",
+                OrderBy = o => o.OrderDate,
+                OrderByDirection = "DESC"
             });
 
             return View(userOrders);
         }
-
-
-
     }
 }
