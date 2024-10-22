@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http.Features;
 using GreenSeed.Services;
+using Azure.Storage.Blobs;
+using Microsoft.Extensions.Configuration;
+using Azure.Storage.Blobs.Models;
+using Microsoft.Identity.Client.Extensions.Msal;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,7 +46,30 @@ builder.Services.Configure<FormOptions>(options =>
     options.MultipartBodyLengthLimit = 10 * 1024 * 1024; // Limite de 10MB
 });
 
-builder.Services.AddScoped<IBlobService, BlobService>(); //injeção do serviço para manipulação de arquivos
+
+// Configuração do Azure Blob Storage
+builder.Services.AddSingleton(x =>
+{
+    string connectionString = builder.Configuration.GetConnectionString("AzureStorage");
+    string containerName = builder.Configuration.GetValue<string>("BlobStorage:ContainerName");
+    if (string.IsNullOrEmpty(connectionString))
+    {
+        throw new ArgumentNullException("AzureStorage connection string is not configured.");
+    }
+    if (string.IsNullOrEmpty(containerName))
+    {
+        throw new ArgumentNullException("BlobStorage ContainerName is not configured.");
+    }
+    BlobContainerClient containerClient = new BlobContainerClient(connectionString, containerName);
+    containerClient.CreateIfNotExists(PublicAccessType.Blob); // Definir o nível de acesso
+    return containerClient;
+});
+
+// Adicionar serviços de repositório e Identity
+builder.Services.AddScoped<IRepository<CommunityPhotoUpload>, Repository<CommunityPhotoUpload>>();
+builder.Services.AddScoped<IRepository<CommunityPhotoComment>, Repository<CommunityPhotoComment>>();
+
+
 builder.Services.AddScoped<OrderQueueService>(); //injeção do serviço para processamento das encomendas
 
 var app = builder.Build();

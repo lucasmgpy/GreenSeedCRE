@@ -10,7 +10,7 @@ namespace GreenSeed.Models
 
         public int CommunityPhotoUploadId { get; set; }
 
-        public string UserId { get; set; } // Alterado de int para string
+        public string UserId { get; set; }
 
         [Required]
         public string CommentText { get; set; }

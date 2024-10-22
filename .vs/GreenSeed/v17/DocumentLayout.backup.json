@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\models\\communityphotocomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\communityphotocomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\services\\iblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\services\\iblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\views\\communityphotoupload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\views\\communityphotoupload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\models\\communityphotouploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\communityphotouploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\models\\communityphotoupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\models\\communityphotoupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\controllers\\communityphotouploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\controllers\\communityphotouploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9576D16-BF6C-40EA-8AF1-70C89191BAF1}|TransportadoraApp\\TransportadoraApp.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\transportadoraapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9576D16-BF6C-40EA-8AF1-70C89191BAF1}|TransportadoraApp\\TransportadoraApp.csproj|solutionrelative:transportadoraapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +42,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CommunityPhotoComment.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\CommunityPhotoComment.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\CommunityPhotoComment.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\CommunityPhotoComment.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\CommunityPhotoComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:09:35.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommunityPhotoUpload.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\CommunityPhotoUpload.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\CommunityPhotoUpload.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\CommunityPhotoUpload.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\CommunityPhotoUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:09:21.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommunityPhotoUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Controllers\\CommunityPhotoUploadController.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Controllers\\CommunityPhotoUploadController.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Controllers\\CommunityPhotoUploadController.cs",
+              "RelativeToolTip": "GreenSeed\\Controllers\\CommunityPhotoUploadController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAswNUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:09:00.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TransportadoraApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\appsettings.json",
+              "RelativeToolTip": "TransportadoraApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T18:57:09.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Program.cs",
               "RelativeDocumentMoniker": "GreenSeed\\Program.cs",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Program.cs",
               "RelativeToolTip": "GreenSeed\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T21:33:52.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlobService.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Services\\BlobService.cs",
-              "RelativeDocumentMoniker": "GreenSeed\\Services\\BlobService.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Services\\BlobService.cs",
-              "RelativeToolTip": "GreenSeed\\Services\\BlobService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T21:32:56.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IBlobService.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Services\\IBlobService.cs",
-              "RelativeDocumentMoniker": "GreenSeed\\Services\\IBlobService.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Services\\IBlobService.cs",
-              "RelativeToolTip": "GreenSeed\\Services\\IBlobService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T21:32:04.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\appsettings.json",
               "RelativeDocumentMoniker": "GreenSeed\\appsettings.json",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\appsettings.json",
               "RelativeToolTip": "GreenSeed\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-20T21:24:23.023Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommunityPhotoUploadViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\CommunityPhotoUploadViewModel.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Models\\CommunityPhotoUploadViewModel.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Models\\CommunityPhotoUploadViewModel.cs",
+              "RelativeToolTip": "GreenSeed\\Models\\CommunityPhotoUploadViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:09:47.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\CommunityPhotoUpload\\Index.cshtml",
+              "RelativeDocumentMoniker": "GreenSeed\\Views\\CommunityPhotoUpload\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\CommunityPhotoUpload\\Index.cshtml",
+              "RelativeToolTip": "GreenSeed\\Views\\CommunityPhotoUpload\\Index.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T19:10:01.41Z",
+              "EditorCaption": ""
             }
           ]
         }

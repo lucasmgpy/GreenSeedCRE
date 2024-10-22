@@ -1,5 +1,6 @@
-﻿using GreenSeed.Models;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace GreenSeed.Models
@@ -8,7 +9,7 @@ namespace GreenSeed.Models
     {
         public int CommunityPhotoUploadId { get; set; }
 
-        public string UserId { get; set; } // Alterado de int para string
+        public string UserId { get; set; }
 
         public string PhotoUrl { get; set; }
 
@@ -19,6 +20,6 @@ namespace GreenSeed.Models
         [ValidateNever]
         public virtual ApplicationUser User { get; set; }
 
-        public virtual ICollection<CommunityPhotoComment> Comments { get; set; } // Adicionado para relacionar os comentários
+        public virtual ICollection<CommunityPhotoComment> Comments { get; set; }
     }
 }

@@ -9,6 +9,8 @@ namespace GreenSeed.ViewModels
         public string Description { get; set; }
 
         [Required]
+        [DataType(DataType.Upload)]
+        [Display(Name = "Foto")]
         public IFormFile Photo { get; set; }
     }
 }

@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
-using GreenSeed.Models;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
-using System.IO;
-using Microsoft.AspNetCore.Http;
-using System;
-using System.Linq;
+﻿using GreenSeed.Models;
 using GreenSeed.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Azure.Storage.Blobs;
+using Azure.Storage.Blobs.Models;
+using System;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace GreenSeed.Controllers
 {
@@ -17,15 +18,18 @@ namespace GreenSeed.Controllers
         private readonly IRepository<CommunityPhotoUpload> _photoUploadRepository;
         private readonly IRepository<CommunityPhotoComment> _photoCommentRepository;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly BlobContainerClient _blobContainerClient;
 
         public CommunityPhotoUploadController(
             IRepository<CommunityPhotoUpload> photoUploadRepository,
             IRepository<CommunityPhotoComment> photoCommentRepository,
-            UserManager<ApplicationUser> userManager)
+            UserManager<ApplicationUser> userManager,
+            BlobContainerClient blobContainerClient) // Injeção de dependência
         {
             _photoUploadRepository = photoUploadRepository;
             _photoCommentRepository = photoCommentRepository;
             _userManager = userManager;
+            _blobContainerClient = blobContainerClient;
         }
 
         // GET: CommunityPhotoUpload
@@ -52,7 +56,7 @@ namespace GreenSeed.Controllers
             {
                 var user = await _userManager.GetUserAsync(User);
 
-                // Processar upload da foto
+                // Processar upload da foto para o Azure Blob Storage
                 string photoUrl = await UploadPhotoAsync(model.Photo);
 
                 var upload = new CommunityPhotoUpload
@@ -70,53 +74,46 @@ namespace GreenSeed.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // Método para processar o upload da foto
+        // Método para processar o upload da foto para o Azure Blob Storage
         private async Task<string> UploadPhotoAsync(IFormFile photo)
         {
             if (photo != null && photo.Length > 0)
             {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
-                if (!Directory.Exists(uploadsFolder))
+                // Gerar um nome único para o blob
+                string blobName = Guid.NewGuid().ToString() + Path.GetExtension(photo.FileName);
+
+                // Obter referência ao blob
+                BlobClient blobClient = _blobContainerClient.GetBlobClient(blobName);
+
+                // Upload do arquivo
+                using (var stream = photo.OpenReadStream())
                 {
-                    Directory.CreateDirectory(uploadsFolder);
+                    await blobClient.UploadAsync(stream, new BlobHttpHeaders { ContentType = photo.ContentType });
                 }
 
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(photo.FileName);
-                var filePath = Path.Combine(uploadsFolder, fileName);
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await photo.CopyToAsync(stream);
-                }
-
-                // Retornar o caminho relativo para ser usado na aplicação
-                return "/uploads/" + fileName;
+                // Retornar a URL do blob
+                return blobClient.Uri.ToString();
             }
             return null;
         }
 
-        // POST: CommunityPhotoUpload/AddComment
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddComment(int id, string commentText)
+        // Método para apagar a foto do Azure Blob Storage
+        private async Task DeletePhotoFromAzureAsync(string photoUrl)
         {
-            if (!string.IsNullOrEmpty(commentText))
+            if (!string.IsNullOrEmpty(photoUrl))
             {
-                var user = await _userManager.GetUserAsync(User);
+                // Extrair o nome do blob a partir da URL
+                var uri = new Uri(photoUrl);
+                string blobName = Path.GetFileName(uri.LocalPath);
 
-                var comment = new CommunityPhotoComment
-                {
-                    CommunityPhotoUploadId = id,
-                    UserId = user.Id,
-                    CommentText = commentText,
-                    CommentDate = DateTime.Now
-                };
+                BlobClient blobClient = _blobContainerClient.GetBlobClient(blobName);
 
-                await _photoCommentRepository.AddAsync(comment);
+                // Apagar o blob
+                await blobClient.DeleteIfExistsAsync();
             }
-            return RedirectToAction(nameof(Index));
         }
 
+        // POST: CommunityPhotoUpload/Delete
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
@@ -152,25 +149,35 @@ namespace GreenSeed.Controllers
             // Apagar a publicação
             await _photoUploadRepository.DeleteAsync(upload.CommunityPhotoUploadId);
 
-            // Opcional: Apagar a foto do servidor
-            DeletePhotoFromServer(upload.PhotoUrl);
+            // Apagar a foto do Azure Blob Storage
+            await DeletePhotoFromAzureAsync(upload.PhotoUrl);
 
             return RedirectToAction(nameof(Index));
         }
 
-        // Método para apagar a foto do servidor
-        private void DeletePhotoFromServer(string photoUrl)
+        // POST: CommunityPhotoUpload/AddComment
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddComment(int id, string commentText)
         {
-            if (!string.IsNullOrEmpty(photoUrl))
+            if (!string.IsNullOrEmpty(commentText))
             {
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", photoUrl.TrimStart('/'));
-                if (System.IO.File.Exists(filePath))
+                var user = await _userManager.GetUserAsync(User);
+
+                var comment = new CommunityPhotoComment
                 {
-                    System.IO.File.Delete(filePath);
-                }
+                    CommunityPhotoUploadId = id,
+                    UserId = user.Id,
+                    CommentText = commentText,
+                    CommentDate = DateTime.Now
+                };
+
+                await _photoCommentRepository.AddAsync(comment);
             }
+            return RedirectToAction(nameof(Index));
         }
 
+        // POST: CommunityPhotoUpload/DeleteComment
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteComment(int id)
@@ -202,6 +209,5 @@ namespace GreenSeed.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
     }
 }
