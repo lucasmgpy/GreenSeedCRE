@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TransportadoraApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+470efe1a9e2e85fccc9d4a488a6c1c250fbe2ff5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61956f701a080c22ceb5f5a1a9dd849f12c0b3af")]
 [assembly: System.Reflection.AssemblyProductAttribute("TransportadoraApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TransportadoraApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

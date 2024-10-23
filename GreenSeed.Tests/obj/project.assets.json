@@ -3121,6 +3121,12 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
+      "Selenium.WebDriver.ChromeDriver/130.0.6723.6900": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
       "Selenium.WebDriver.MSEdgeDriver.win32/130.0.2849.46": {
         "type": "package",
         "build": {
@@ -4068,6 +4074,8 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10",
           "Microsoft.AspNetCore.Identity.UI": "8.0.10",
+          "Microsoft.AspNetCore.Mvc.Testing": "8.0.10",
+          "Microsoft.EntityFrameworkCore.InMemory": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
@@ -9105,6 +9113,30 @@
         "selenium.webdriver.nuspec"
       ]
     },
+    "Selenium.WebDriver.ChromeDriver/130.0.6723.6900": {
+      "sha512": "LtvD+O7s0gnk6chIm74gtXmKir2A3cdGQ9+A/93V4EwFwKzQtFn9or/HCp9dZojZa9c/ekIp/jPgTrfDgJQL0Q==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/130.0.6723.6900",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/LICENSE.chromedriver",
+        "driver/linux64/chromedriver",
+        "driver/mac64/LICENSE.chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/LICENSE.chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/LICENSE.chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.130.0.6723.6900.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
     "Selenium.WebDriver.MSEdgeDriver.win32/130.0.2849.46": {
       "sha512": "jYqyGXV+PyCnlc/5eQAshjQy34emOwwj21CSM7TCyLl9XzN1VPqAW+p9eezVwzoPTQRYbXSPTZW2opWlpOfPTg==",
       "type": "package",
@@ -10713,6 +10745,7 @@
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "Moq >= 4.20.72",
       "Selenium.WebDriver >= 4.25.0",
+      "Selenium.WebDriver.ChromeDriver >= 130.0.6723.6900",
       "Selenium.WebDriver.MSEdgeDriver.win32 >= 130.0.2849.46",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.9.2",
@@ -10786,6 +10819,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.25.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[130.0.6723.6900, )"
           },
           "Selenium.WebDriver.MSEdgeDriver.win32": {
             "target": "Package",

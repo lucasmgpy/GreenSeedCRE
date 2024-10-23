@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed.tests\\services\\sessionextensionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|solutionrelative:greenseed.tests\\services\\sessionextensionstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed.tests\\integration\\productcontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|solutionrelative:greenseed.tests\\integration\\productcontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SessionExtensionsTests.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Services\\SessionExtensionsTests.cs",
-              "RelativeDocumentMoniker": "GreenSeed.Tests\\Services\\SessionExtensionsTests.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Services\\SessionExtensionsTests.cs",
-              "RelativeToolTip": "GreenSeed.Tests\\Services\\SessionExtensionsTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:44:24.701Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "GreenSeed\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "GreenSeed\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T19:43:39.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GreenSeed\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GreenSeed\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T19:43:18.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GreenSeed\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GreenSeed\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T19:39:38.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
+              "RelativeToolTip": "GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:31:53.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Program.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Program.cs",
+              "RelativeToolTip": "GreenSeed\\Program.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:28:02.759Z"
             }
           ]
         }

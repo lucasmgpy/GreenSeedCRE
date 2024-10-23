@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SbW5MydYO6vYqF5HrQLD3Bf7jTLVwMksN2o0K9thARU=",
+  "Hash": "Vq6QPs6iI+JJ6xq3/Z6ZcxQI2FDUtzXP5XGgMc2dlQo=",
   "Source": "GreenSeed",
   "BasePath": "_content/GreenSeed",
   "Mode": "Default",
@@ -1461,6 +1461,44 @@
       "OriginalItemSpec": "wwwroot\\images\\desafios\\4he2lh1n.4i1.jpg"
     },
     {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\desafios\\5jsoyidr.2d2.png",
+      "SourceId": "GreenSeed",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\",
+      "BasePath": "_content/GreenSeed",
+      "RelativePath": "images/desafios/5jsoyidr.2d2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\desafios\\5jsoyidr.2d2.png"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\desafios\\aq5n5ujq.acj.jpg",
+      "SourceId": "GreenSeed",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\",
+      "BasePath": "_content/GreenSeed",
+      "RelativePath": "images/desafios/aq5n5ujq.acj.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\desafios\\aq5n5ujq.acj.jpg"
+    },
+    {
       "Identity": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\desafios\\fl4rsdsi.agv.jpg",
       "SourceId": "GreenSeed",
       "SourceType": "Discovered",
@@ -1499,12 +1537,12 @@
       "OriginalItemSpec": "wwwroot\\images\\desafios\\kkd311kc.taa.png"
     },
     {
-      "Identity": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\desafios\\syufpmcc.fbi.jpg",
+      "Identity": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\desafios\\p2h0ozji.dxo.jpg",
       "SourceId": "GreenSeed",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\",
       "BasePath": "_content/GreenSeed",
-      "RelativePath": "images/desafios/syufpmcc.fbi.jpg",
+      "RelativePath": "images/desafios/p2h0ozji.dxo.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1515,7 +1553,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\desafios\\syufpmcc.fbi.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\desafios\\p2h0ozji.dxo.jpg"
     },
     {
       "Identity": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\f88b536e-a143-4a7b-961b-2e97f6bf33d6_GREENleft.png",

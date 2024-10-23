@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E9vIDH5VU9k=",
+  "dgSpecHash": "L6qXjKj6fAk=",
   "success": true,
   "projectFilePath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\GreenSeed.Tests.csproj",
   "expectedPackageFiles": [
@@ -170,6 +170,7 @@
     "C:\\Users\\lucas\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\selenium.webdriver\\4.25.0\\selenium.webdriver.4.25.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\selenium.webdriver.chromedriver\\130.0.6723.6900\\selenium.webdriver.chromedriver.130.0.6723.6900.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\selenium.webdriver.msedgedriver.win32\\130.0.2849.46\\selenium.webdriver.msedgedriver.win32.130.0.2849.46.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
