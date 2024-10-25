@@ -1,0 +1,81 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy ASP.NET Core app to Azure Web App - greenseed-webapp
+
+on:
+  push:
+    branches:
+      - main # Atualize para 'master' se for o caso
+      # - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      # Passo 1: Checkout do código
+      - uses: actions/checkout@v4
+
+      # Passo 2: Configurar .NET Core
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x' # Verifique a versão que você está usando
+
+      # Passo 3: Restaurar dependências
+      - name: Restore dependencies
+        run: dotnet restore ./GreenSeed/GreenSeed.csproj
+
+      # Passo 4: Build da aplicação
+      - name: Build with dotnet
+        run: dotnet build ./GreenSeed/GreenSeed.csproj --configuration Release --no-restore
+
+      # Passo 5: Testar a aplicação
+      - name: Test with dotnet
+        run: dotnet test ./GreenSeed.Tests/GreenSeed.Tests.csproj --no-build --verbosity normal
+
+      # Passo 6: Publicar a aplicação
+      - name: dotnet publish
+        run: dotnet publish ./GreenSeed/GreenSeed.csproj --configuration Release --output ./publish
+
+      # Passo 7: Upload do artefato para o job de deploy
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
+        with:
+          name: dotnet-app
+          path: ./publish
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write # Isso é necessário para solicitar o JWT
+
+    steps:
+      # Passo 1: Download do artefato do job de build
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: dotnet-app
+          path: ./publish
+
+      # Passo 2: Login no Azure
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+
+      # Passo 3: Deploy para o Azure Web App
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'greenseed-webapp' # Substitua pelo nome do seu Web App
+          slot-name: 'production' # Use 'production' se você estiver usando slots
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: './publish' # Caminho para os arquivos publicados
