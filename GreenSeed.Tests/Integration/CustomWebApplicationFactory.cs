@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿// GreenSeed.Tests/Integration/CustomWebApplicationFactory.cs
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Authentication;
+using System.IO;
 
 namespace GreenSeed.Tests.Integration
 {
@@ -16,6 +18,9 @@ namespace GreenSeed.Tests.Integration
         {
             // Define o ambiente como "Testing"
             builder.UseEnvironment("Testing");
+
+            // Define o ContentRoot para o diretório do projeto web
+            builder.UseContentRoot(Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../GreenSeed")));
 
             builder.ConfigureAppConfiguration((context, configBuilder) =>
             {

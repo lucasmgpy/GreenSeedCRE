@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿// GreenSeed.Tests/Integration/ProductControllerIntegrationTests.cs
+using Xunit;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Testing;
 using GreenSeed;
@@ -21,7 +22,10 @@ namespace GreenSeed.Tests.Integration
         public ProductControllerIntegrationTests(CustomWebApplicationFactory<Program> factory)
             : base(factory)
         {
-            _client = _factory.CreateClient();
+            _client = _factory.CreateClient(new WebApplicationFactoryClientOptions
+            {
+                AllowAutoRedirect = false
+            });
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Test");
         }
 
