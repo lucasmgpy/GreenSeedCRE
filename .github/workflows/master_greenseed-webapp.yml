@@ -61,12 +61,6 @@ jobs:
           name: dotnet-app
           path: ./publish
 
-      # Passo 2: Login no Azure
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-
       # Passo 3: Deploy para o Azure Web App
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
