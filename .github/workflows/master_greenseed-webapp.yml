@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows
+    runs-on: windows-latest
 
     steps:
       # Passo 1: Checkout do código
@@ -22,7 +22,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x' # Verifique a versão que você está usando
+          dotnet-version: '8.0' # Verifique a versão que você está usando
 
       # Passo 3: Restaurar dependências
       - name: Restore dependencies
