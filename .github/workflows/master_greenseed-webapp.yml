@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest # Use Linux para melhor performance e custo
+    runs-on: windows
 
     steps:
       # Passo 1: Checkout do código
