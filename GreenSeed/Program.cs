@@ -47,27 +47,31 @@ builder.Services.Configure<FormOptions>(options =>
 });
 
 
-// Configuração do Azure Blob Storage
-builder.Services.AddSingleton(x =>
+// Condicionalmente adiciona o Azure Blob Storage se não estiver no ambiente de teste
+if (!builder.Environment.IsEnvironment("Testing"))
 {
-    string connectionString = builder.Configuration.GetConnectionString("AzureStorage");
-    string containerName = builder.Configuration.GetValue<string>("BlobStorage:ContainerName");
-    if (string.IsNullOrEmpty(connectionString))
+    // Configuração do Azure Blob Storage
+    builder.Services.AddSingleton(x =>
     {
-        throw new ArgumentNullException("AzureStorage connection string is not configured.");
-    }
-    if (string.IsNullOrEmpty(containerName))
-    {
-        throw new ArgumentNullException("BlobStorage ContainerName is not configured.");
-    }
-    BlobContainerClient containerClient = new BlobContainerClient(connectionString, containerName);
-    containerClient.CreateIfNotExists(PublicAccessType.Blob); // Definir o nível de acesso
-    return containerClient;
-});
+        string connectionString = builder.Configuration.GetConnectionString("AzureStorage");
+        string containerName = builder.Configuration.GetValue<string>("BlobStorage:ContainerName");
+        if (string.IsNullOrEmpty(connectionString))
+        {
+            throw new ArgumentNullException("AzureStorage connection string is not configured.");
+        }
+        if (string.IsNullOrEmpty(containerName))
+        {
+            throw new ArgumentNullException("BlobStorage ContainerName is not configured.");
+        }
+        BlobContainerClient containerClient = new BlobContainerClient(connectionString, containerName);
+        containerClient.CreateIfNotExists(PublicAccessType.Blob); // Definir o nível de acesso
+        return containerClient;
+    });
 
-// Adicionar serviços de repositório e Identity
-builder.Services.AddScoped<IRepository<CommunityPhotoUpload>, Repository<CommunityPhotoUpload>>();
-builder.Services.AddScoped<IRepository<CommunityPhotoComment>, Repository<CommunityPhotoComment>>();
+    // Adiciona serviços de repositório específicos
+    builder.Services.AddScoped<IRepository<CommunityPhotoUpload>, Repository<CommunityPhotoUpload>>();
+    builder.Services.AddScoped<IRepository<CommunityPhotoComment>, Repository<CommunityPhotoComment>>();
+}
 
 
 builder.Services.AddScoped<OrderQueueService>(); //injeção do serviço para processamento das encomendas

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed.tests\\integration\\productcontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|solutionrelative:greenseed.tests\\integration\\productcontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed.tests\\integration\\baseintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|solutionrelative:greenseed.tests\\integration\\baseintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed.tests\\integration\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|solutionrelative:greenseed.tests\\integration\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9576D16-BF6C-40EA-8AF1-70C89191BAF1}|TransportadoraApp\\TransportadoraApp.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\transportadoraapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E9576D16-BF6C-40EA-8AF1-70C89191BAF1}|TransportadoraApp\\TransportadoraApp.csproj|solutionrelative:transportadoraapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -22,16 +38,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|solutionrelative:greenseed\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed.tests\\integration\\productcontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}|GreenSeed.Tests\\GreenSeed.Tests.csproj|solutionrelative:greenseed.tests\\integration\\productcontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE3AB355-D0C2-4E9C-A52B-F0984CE36C8B}|GreenSeed\\GreenSeed.csproj|c:\\users\\lucas\\source\\repos\\greenseedcre\\greenseed\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -49,24 +57,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241025212710_transportadoraAzureSql.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs",
-              "RelativeDocumentMoniker": "TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs",
-              "RelativeToolTip": "TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BaseIntegrationTest.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\BaseIntegrationTest.cs",
+              "RelativeDocumentMoniker": "GreenSeed.Tests\\Integration\\BaseIntegrationTest.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\BaseIntegrationTest.cs",
+              "RelativeToolTip": "GreenSeed.Tests\\Integration\\BaseIntegrationTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:27:10.373Z",
+              "WhenOpened": "2024-10-25T22:32:40.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomWebApplicationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\CustomWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "GreenSeed.Tests\\Integration\\CustomWebApplicationFactory.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\CustomWebApplicationFactory.cs",
+              "RelativeToolTip": "GreenSeed.Tests\\Integration\\CustomWebApplicationFactory.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T22:37:47.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\appsettings.json",
               "RelativeDocumentMoniker": "TransportadoraApp\\appsettings.json",
@@ -78,37 +103,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20241025202213_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Data\\Migrations\\20241025202213_InitialCreate.cs",
-              "RelativeDocumentMoniker": "GreenSeed\\Data\\Migrations\\20241025202213_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Data\\Migrations\\20241025202213_InitialCreate.cs",
-              "RelativeToolTip": "GreenSeed\\Data\\Migrations\\20241025202213_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T20:22:14.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALIUAAAAAAAAAAAnwMgUAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-25T20:20:36.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\appsettings.json",
               "RelativeDocumentMoniker": "GreenSeed\\appsettings.json",
@@ -116,12 +112,11 @@
               "RelativeToolTip": "GreenSeed\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-25T20:05:45.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T20:05:45.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "GreenSeed\\Views\\Home\\Privacy.cshtml",
@@ -133,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "GreenSeed\\Views\\Home\\Index.cshtml",
@@ -145,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GreenSeed\\Views\\Shared\\_Layout.cshtml",
@@ -157,27 +152,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductControllerIntegrationTests.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
-              "RelativeDocumentMoniker": "GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
-              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
-              "RelativeToolTip": "GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:31:53.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Program.cs",
               "RelativeDocumentMoniker": "GreenSeed\\Program.cs",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Program.cs",
               "RelativeToolTip": "GreenSeed\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:28:02.759Z"
+              "WhenOpened": "2024-10-23T18:28:02.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
+              "RelativeToolTip": "GreenSeed.Tests\\Integration\\ProductControllerIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:31:53.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALIUAAAAAAAAAAAnwMgUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-25T20:20:36.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241025202213_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Data\\Migrations\\20241025202213_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GreenSeed\\Data\\Migrations\\20241025202213_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Data\\Migrations\\20241025202213_InitialCreate.cs",
+              "RelativeToolTip": "GreenSeed\\Data\\Migrations\\20241025202213_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T20:22:14.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241025212710_transportadoraAzureSql.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs",
+              "RelativeDocumentMoniker": "TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs",
+              "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs",
+              "RelativeToolTip": "TransportadoraApp\\Migrations\\20241025212710_transportadoraAzureSql.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T21:27:10.373Z"
             }
           ]
         }

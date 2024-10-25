@@ -7,39 +7,17 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Microsoft.AspNetCore.Authentication;
+using Xunit;
 
 namespace GreenSeed.Tests.Integration
 {
-    public class BaseIntegrationTest
+    public class BaseIntegrationTest : IClassFixture<CustomWebApplicationFactory<Program>>
     {
-        protected readonly WebApplicationFactory<Program> _factory;
+        protected readonly CustomWebApplicationFactory<Program> _factory;
 
-        public BaseIntegrationTest()
+        public BaseIntegrationTest(CustomWebApplicationFactory<Program> factory)
         {
-            _factory = new WebApplicationFactory<Program>()
-                .WithWebHostBuilder(builder =>
-                {
-                    builder.ConfigureServices(services =>
-                    {
-                        // Remova o contexto de banco de dados original
-                        var descriptor = services.SingleOrDefault(
-                            d => d.ServiceType == typeof(DbContextOptions<ApplicationDbContext>));
-                        if (descriptor != null)
-                        {
-                            services.Remove(descriptor);
-                        }
-
-                        // Adicione um contexto de banco de dados em memória
-                        services.AddDbContext<ApplicationDbContext>(options =>
-                        {
-                            options.UseInMemoryDatabase("InMemoryDbForTesting");
-                        });
-
-                        // Adicione o esquema de autenticação de teste
-                        services.AddAuthentication("Test")
-                            .AddScheme<AuthenticationSchemeOptions, TestAuthHandler>("Test", options => { });
-                    });
-                });
+            _factory = factory;
         }
     }
 }

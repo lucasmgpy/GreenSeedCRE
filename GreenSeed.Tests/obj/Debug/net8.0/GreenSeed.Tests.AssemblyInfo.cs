@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenSeed.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89f17e7febe22b9778f40e0aca1d466aea9d7463")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7de3ca685b956dff809e05ce0ca2238773b9678d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenSeed.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenSeed.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

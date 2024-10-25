@@ -18,7 +18,8 @@ namespace GreenSeed.Tests.Integration
     {
         private readonly HttpClient _client;
 
-        public ProductControllerIntegrationTests()
+        public ProductControllerIntegrationTests(CustomWebApplicationFactory<Program> factory)
+            : base(factory)
         {
             _client = _factory.CreateClient();
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Test");
@@ -62,6 +63,5 @@ namespace GreenSeed.Tests.Integration
             var responseString = await response.Content.ReadAsStringAsync();
             Assert.Contains("Adicionar", responseString); // Verifica se a operação é "Adicionar"
         }
-
     }
 }
