@@ -5,12 +5,12 @@ name: Build and deploy ASP.NET Core app to Azure Web App - greenseed-webapp
 on:
   push:
     branches:
-      - main # Atualize para 'master' se for o caso
+      - master 
   workflow_dispatch:
 
 jobs:
   build:
-    runs-on: windows-latest # Mantém como Windows após a alteração
+    runs-on: windows-latest 
     steps:
       # Passo 1: Checkout do código
       - uses: actions/checkout@v4
@@ -19,7 +19,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x' # Verifique a versão que você está usando
+          dotnet-version: '8.0' 
 
       # Passo 3: Restaurar dependências
       - name: Restore dependencies
@@ -45,7 +45,7 @@ jobs:
           path: ./publish
 
   deploy:
-    runs-on: windows-latest # Mantém como Windows
+    runs-on: windows-latest 
     needs: build
     environment:
       name: 'Production'
@@ -66,7 +66,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'greenseed-webapp' # Substitua pelo nome do seu Web App
-          slot-name: 'production' # Use 'production' se você estiver usando slots
+          app-name: 'greenseed-webapp' 
+          slot-name: 'production' 
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: './publish' # Caminho para os arquivos publicados
