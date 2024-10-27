@@ -28,37 +28,6 @@ namespace GreenSeed.Areas.Admin.Controllers
             return View(users);
         }
 
-        //// Adicionar um novo usuário
-        //public IActionResult Create()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public async Task<IActionResult> Create(string email, string password, string role)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var user = new ApplicationUser { UserName = email, Email = email };
-        //        var result = await _userManager.CreateAsync(user, password);
-        //        if (result.Succeeded)
-        //        {
-        //            if (!await _roleManager.RoleExistsAsync(role))
-        //            {
-        //                await _roleManager.CreateAsync(new IdentityRole(role));
-        //            }
-        //            await _userManager.AddToRoleAsync(user, role);
-        //            TempData["SuccessMessage"] = "Usuário criado com sucesso!";
-        //            return RedirectToAction(nameof(Index));
-        //        }
-        //        foreach (var error in result.Errors)
-        //        {
-        //            ModelState.AddModelError(string.Empty, error.Description);
-        //        }
-        //    }
-        //    return View();
-        //}
-
         // Editar usuário (atribuir papéis)
         public async Task<IActionResult> Edit(string id)
         {
@@ -110,10 +79,10 @@ namespace GreenSeed.Areas.Admin.Controllers
                     return View(model);
                 }
 
-                // Remover papéis existentes
+                // Remover roles existentes
                 await _userManager.RemoveFromRolesAsync(user, userRoles);
 
-                // Adicionar novos papéis
+                // Adicionar novos roles
                 if (selectedRoles != null)
                 {
                     await _userManager.AddToRolesAsync(user, selectedRoles);

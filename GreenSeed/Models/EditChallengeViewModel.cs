@@ -6,7 +6,7 @@ namespace GreenSeed.ViewModels
     public class EditChallengeViewModel
     {
         [Required]
-        public int Id { get; set; } // Necessário para identificar o desafio a ser editado
+        public int Id { get; set; }
 
         [Required]
         [StringLength(100)]

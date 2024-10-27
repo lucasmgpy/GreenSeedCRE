@@ -24,7 +24,7 @@ namespace GreenSeed.Controllers
             IRepository<CommunityPhotoUpload> photoUploadRepository,
             IRepository<CommunityPhotoComment> photoCommentRepository,
             UserManager<ApplicationUser> userManager,
-            BlobContainerClient blobContainerClient) // Injeção de dependência
+            BlobContainerClient blobContainerClient) 
         {
             _photoUploadRepository = photoUploadRepository;
             _photoCommentRepository = photoCommentRepository;
@@ -79,10 +79,10 @@ namespace GreenSeed.Controllers
         {
             if (photo != null && photo.Length > 0)
             {
-                // Gerar um nome único para o blob
+                // Gera um nome único para o blob
                 string blobName = Guid.NewGuid().ToString() + Path.GetExtension(photo.FileName);
 
-                // Obter referência ao blob
+                // Obtem referência ao blob
                 BlobClient blobClient = _blobContainerClient.GetBlobClient(blobName);
 
                 // Upload do arquivo
@@ -102,7 +102,7 @@ namespace GreenSeed.Controllers
         {
             if (!string.IsNullOrEmpty(photoUrl))
             {
-                // Extrair o nome do blob a partir da URL
+                // Extrai o nome do blob a partir da URL
                 var uri = new Uri(photoUrl);
                 string blobName = Path.GetFileName(uri.LocalPath);
 
@@ -120,7 +120,7 @@ namespace GreenSeed.Controllers
         {
             var user = await _userManager.GetUserAsync(User);
 
-            // Obter a publicação
+            // Obtem a publicação
             var options = new QueryOptions<CommunityPhotoUpload>
             {
                 Where = u => u.CommunityPhotoUploadId == id,
@@ -134,22 +134,22 @@ namespace GreenSeed.Controllers
                 return NotFound();
             }
 
-            // Verificar se o utilizador é o dono da publicação
+            // Verifica se o utilizador é o dono da publicação
             if (upload.UserId != user.Id)
             {
                 return Forbid();
             }
 
-            // Apagar os comentários associados
+            // Apaga os comentários associados
             foreach (var comment in upload.Comments)
             {
                 await _photoCommentRepository.DeleteAsync(comment.CommunityPhotoCommentId);
             }
 
-            // Apagar a publicação
+            // Apaga a publicação
             await _photoUploadRepository.DeleteAsync(upload.CommunityPhotoUploadId);
 
-            // Apagar a foto do Azure Blob Storage
+            // Apaga a foto do Azure Blob Storage
             await DeletePhotoFromAzureAsync(upload.PhotoUrl);
 
             return RedirectToAction(nameof(Index));
@@ -184,7 +184,7 @@ namespace GreenSeed.Controllers
         {
             var user = await _userManager.GetUserAsync(User);
 
-            // Obter o comentário
+            // Obtem o comentário
             var options = new QueryOptions<CommunityPhotoComment>
             {
                 Where = c => c.CommunityPhotoCommentId == id,
@@ -198,13 +198,13 @@ namespace GreenSeed.Controllers
                 return NotFound();
             }
 
-            // Verificar se o utilizador é o dono do comentário ou dono da publicação
+            // Verifica se o utilizador é o dono do comentário ou dono da publicação
             if (comment.UserId != user.Id && comment.CommunityPhotoUpload.UserId != user.Id)
             {
                 return Forbid();
             }
 
-            // Apagar o comentário
+            // Apaga o comentário
             await _photoCommentRepository.DeleteAsync(comment.CommunityPhotoCommentId);
 
             return RedirectToAction(nameof(Index));

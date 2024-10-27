@@ -10,7 +10,7 @@
             <th>ID Encomenda</th>
             <th>Data Encomenda</th>
             <th>Valor Total</th>
-            <th>Status</th> <!-- Nova coluna -->
+            <th>Status</th>
             <th>Itens a Encomendar</th>
         </tr>
     </thead>
@@ -21,7 +21,7 @@
                 <td>@order.OrderId</td>
                 <td>@order.OrderDate.ToString("dd/MM/yyyy")</td>
                 <td>@order.TotalAmount.ToString("C")</td>
-                <td>@order.Status</td> <!-- Exibir o status -->
+                <td>@order.Status</td>
                 <td>
                     <ul>
                         @foreach (var item in order.OrderItems)

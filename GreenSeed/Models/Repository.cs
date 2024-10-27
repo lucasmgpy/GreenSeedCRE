@@ -27,11 +27,6 @@ namespace GreenSeed.Models
             await _context.SaveChangesAsync();
         }
 
-        //public async Task<IEnumerable<T>> GetAllAsync()
-        //{
-        //    return await _dbSet.ToListAsync();
-        //}
-
         public async Task<T> GetByIdAsync(int id)
         {
             return await GetByIdAsync(id, new QueryOptions<T>());
@@ -83,7 +78,7 @@ namespace GreenSeed.Models
             {
                 query = query.Include(include);
             }
-            // Filter by the specified property name and id
+            //Filtra pelo nome da propriedade e id especificado
             query = query.Where(e => EF.Property<TKey>(e, propertyName).Equals(id));
 
             return await query.ToListAsync();

@@ -173,7 +173,7 @@ namespace GreenSeed.Areas.Admin.Controllers
                 if (model.ImageFile != null && model.ImageFile.Length > 0)
                 {
                     _logger.LogInformation("Processando nova imagem para o desafio com ID {ChallengeId}.", id);
-                    // Validar o tipo e tamanho do arquivo conforme necessário
+                    // Validar o tipo do arquivo conforme necessário
                     var extension = Path.GetExtension(model.ImageFile.FileName).ToLower();
                     var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
                     if (!allowedExtensions.Contains(extension))
@@ -182,9 +182,9 @@ namespace GreenSeed.Areas.Admin.Controllers
                         return View(model);
                     }
 
-                    // Gerar um nome de arquivo único
+                    // Gerar um nome de arquivo único(para não haver conflitos caso haja arquivos com o mesmo nome)
                     var fileName = Path.GetRandomFileName() + extension;
-                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images", "desafios"); // Atualizado para 'images/desafios'
+                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images", "desafios");
                     if (!Directory.Exists(uploadsFolder))
                     {
                         Directory.CreateDirectory(uploadsFolder);

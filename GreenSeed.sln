@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenSeed", "GreenSeed\Gree
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransportadoraApp", "TransportadoraApp\TransportadoraApp.csproj", "{E9576D16-BF6C-40EA-8AF1-70C89191BAF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenSeed.Tests", "GreenSeed.Tests\GreenSeed.Tests.csproj", "{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenSeed.Tests", "GreenSeed.Tests\GreenSeed.Tests.csproj", "{8DB840D3-DD34-4D7A-BEDB-B6CE764418AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

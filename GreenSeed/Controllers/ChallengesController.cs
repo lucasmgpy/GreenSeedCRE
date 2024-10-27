@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GreenSeed.Controllers
 {
-    [Authorize(Roles = "User,Admin")] // Ambos Admins e Users podem participar
+    [Authorize(Roles = "User,Admin")]
     public class ChallengesController : Controller
     {
         private readonly IRepository<Challenge> _challengeRepository;
@@ -33,7 +33,7 @@ namespace GreenSeed.Controllers
         // GET: Challenges
         public async Task<IActionResult> Index()
         {
-            // Obter o desafio ativo mais recente
+            // Obter o desafio ativo mais recente (desafios mais antigos ficam para baixo, mais recentes ficam em cima)
             var currentChallenge = (await _challengeRepository.GetAllAsync(new QueryOptions<Challenge>
             {
                 Where = c => !c.IsArchived,
@@ -47,7 +47,7 @@ namespace GreenSeed.Controllers
                 return View(new ChallengeViewModel());
             }
 
-            // Verificar se o usuário já respondeu ao desafio
+            // Verifica se o usuário já respondeu ao desafio
             var user = await _userManager.GetUserAsync(User);
             var userResponse = (await _challengeResponseRepository.GetAllAsync(new QueryOptions<ChallengeResponse>
             {
@@ -79,7 +79,7 @@ namespace GreenSeed.Controllers
 
             var user = await _userManager.GetUserAsync(User);
 
-            // Verificar se o usuário já respondeu ao desafio
+            // Verifica se o usuário já respondeu ao desafio
             var existingResponse = (await _challengeResponseRepository.GetAllAsync(new QueryOptions<ChallengeResponse>
             {
                 Where = cr => cr.ChallengeId == challengeId && cr.UserId == user.Id
@@ -91,7 +91,7 @@ namespace GreenSeed.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            // Determinar se a resposta está correta
+            // Determina se a resposta está correta
             bool isCorrect = selectedOption == challenge.CorrectOption;
 
             int pointsAwarded = 0;

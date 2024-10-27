@@ -137,6 +137,14 @@
       "PackagePath": "staticwebassets\\images\\greensingular.png"
     },
     {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\home\\greenplantas.png",
+      "PackagePath": "staticwebassets\\images\\home\\greenplantas.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\home\\greentexto.png",
+      "PackagePath": "staticwebassets\\images\\home\\greentexto.png"
+    },
+    {
       "Id": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

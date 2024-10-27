@@ -14,7 +14,7 @@ namespace GreenSeed.Controllers
         private Repository<Product> _products;
         private Repository<Order> _orders;
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly OrderQueueService _queueService; // Adicione este campo
+        private readonly OrderQueueService _queueService;
 
         public OrderController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, OrderQueueService queueService)
         {
@@ -22,7 +22,7 @@ namespace GreenSeed.Controllers
             _userManager = userManager;
             _products = new Repository<Product>(context);
             _orders = new Repository<Order>(context);
-            _queueService = queueService; // Inicialize no construtor
+            _queueService = queueService;
         }
 
         [Authorize]
@@ -102,13 +102,13 @@ namespace GreenSeed.Controllers
                 return RedirectToAction("Create");
             }
 
-            // Criar uma nova entidade Order com Status definido
+            // Cria uma nova entidade Order com Status definido
             Order order = new Order
             {
                 OrderDate = DateTime.Now,
                 TotalAmount = model.TotalAmount,
                 UserId = _userManager.GetUserId(User),
-                Status = "Pending" // Definir o status inicial
+                Status = "Pending" // Define o status inicial
             };
 
             // Adicionar OrderItems à entidade Order

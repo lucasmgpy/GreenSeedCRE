@@ -36,7 +36,7 @@ namespace GreenSeed.Data
                     EmailConfirmed = true
                 };
 
-                var result = await userManager.CreateAsync(newAdmin, "Admin@123"); // Use uma senha forte
+                var result = await userManager.CreateAsync(newAdmin, "Admin@123");
 
                 if (result.Succeeded)
                 {

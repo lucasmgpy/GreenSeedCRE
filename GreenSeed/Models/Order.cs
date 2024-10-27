@@ -15,7 +15,7 @@ namespace GreenSeed.Models
         [ValidateNever]
         public ApplicationUser? User { get; set; }
         public decimal TotalAmount { get; set; }
-        public string Status { get; set; } // Nova propriedade
+        public string Status { get; set; } 
         [ValidateNever]
         public ICollection<OrderItem>? OrderItems { get; set; }
     }

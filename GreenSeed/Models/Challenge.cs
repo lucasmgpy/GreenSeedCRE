@@ -11,7 +11,7 @@ namespace GreenSeed.Models
         public int Id { get; set; }
 
         [Required]
-        public string ImagePath { get; set; } // Caminho para a imagem armazenada
+        public string ImagePath { get; set; }
 
         [Required]
         [StringLength(100)]
@@ -36,8 +36,6 @@ namespace GreenSeed.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public bool IsArchived { get; set; } = false;
-
-        // Relação com as respostas
         public ICollection<ChallengeResponse> ChallengeResponses { get; set; }
 
         // Método para obter as opções como uma lista
