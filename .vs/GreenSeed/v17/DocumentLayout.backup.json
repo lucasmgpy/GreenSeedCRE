@@ -46,8 +46,7 @@
               "RelativeToolTip": "GreenSeed\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T01:35:20.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T01:35:20.953Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "GreenSeed\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T01:20:37.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T01:20:37.946Z"
             },
             {
               "$type": "Document",
@@ -70,7 +68,7 @@
               "RelativeDocumentMoniker": "GreenSeed\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "GreenSeed\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-27T01:20:29.486Z",
               "EditorCaption": ""
@@ -85,8 +83,7 @@
               "RelativeToolTip": "TransportadoraApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-26T21:44:48.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T21:44:48.092Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "TransportadoraApp\\Program.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAkwIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T18:48:17.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T18:48:17.685Z"
             }
           ]
         }
