@@ -56,6 +56,21 @@ namespace GreenSeed.Controllers
 
             var existingItem = model.OrderItems.FirstOrDefault(oi => oi.ProductId == prodId);
 
+            int totalRequestedQty = prodQty;
+            if (existingItem != null)
+            {
+                totalRequestedQty += existingItem.Quantity;
+            }
+
+            // Verificar se a quantidade solicitada excede o estoque
+            if (totalRequestedQty > product.Stock)
+            {
+                // Adicionar mensagem de erro
+                ModelState.AddModelError("", $"Não há estoque suficiente para o produto '{product.Name}'. Quantidade disponível: {product.Stock}.");
+                model.Products = await _products.GetAllAsync(); // Recarregar produtos
+                return View("Create", model);
+            }
+
             if (existingItem != null)
             {
                 existingItem.Quantity += prodQty;
@@ -102,37 +117,83 @@ namespace GreenSeed.Controllers
                 return RedirectToAction("Create");
             }
 
-            // Cria uma nova entidade Order com Status definido
-            Order order = new Order
+            // Iniciar uma transação para garantir a consistência dos dados
+            using (var transaction = await _context.Database.BeginTransactionAsync())
             {
-                OrderDate = DateTime.Now,
-                TotalAmount = model.TotalAmount,
-                UserId = _userManager.GetUserId(User),
-                Status = "Pending" // Define o status inicial
-            };
-
-            // Adicionar OrderItems à entidade Order
-            foreach (var item in model.OrderItems)
-            {
-                order.OrderItems.Add(new OrderItem
+                try
                 {
-                    ProductId = item.ProductId,
-                    Quantity = item.Quantity,
-                    Price = item.Price
-                });
+                    // Verificar novamente o estoque antes de finalizar o pedido
+                    foreach (var item in model.OrderItems)
+                    {
+                        var product = await _context.Products.FindAsync(item.ProductId);
+                        if (product == null)
+                        {
+                            throw new Exception($"Produto com ID {item.ProductId} não encontrado.");
+                        }
+
+                        if (item.Quantity > product.Stock)
+                        {
+                            throw new Exception($"Não há estoque suficiente para o produto '{product.Name}'. Quantidade disponível: {product.Stock}.");
+                        }
+
+                        // Reduzir o estoque
+                        product.Stock -= item.Quantity;
+                        _context.Products.Update(product);
+                    }
+
+                    // Cria uma nova entidade Order com Status definido
+                    Order order = new Order
+                    {
+                        OrderDate = DateTime.Now,
+                        TotalAmount = model.TotalAmount,
+                        UserId = _userManager.GetUserId(User),
+                        Status = "Pending" // Define o status inicial
+                    };
+
+                    // Adicionar OrderItems à entidade Order
+                    foreach (var item in model.OrderItems)
+                    {
+                        order.OrderItems.Add(new OrderItem
+                        {
+                            ProductId = item.ProductId,
+                            Quantity = item.Quantity,
+                            Price = item.Price
+                        });
+                    }
+
+                    // Salvar a entidade Order no banco de dados
+                    await _orders.AddAsync(order);
+
+                    // Salvar as alterações no estoque
+                    await _context.SaveChangesAsync();
+
+                    // Enviar mensagem para a fila
+                    await _queueService.SendOrderStatusAsync(order);
+
+                    // Commit da transação
+                    await transaction.CommitAsync();
+
+                    // Limpar o OrderViewModel da sessão
+                    HttpContext.Session.Remove("OrderViewModel");
+
+                    // Redirecionar para a página de confirmação da encomenda
+                    return RedirectToAction("ViewOrders");
+                }
+                catch (Exception ex)
+                {
+                    // Rollback da transação em caso de erro
+                    await transaction.RollbackAsync();
+
+                    // Adicionar mensagem de erro
+                    ModelState.AddModelError("", $"Erro ao processar o pedido: {ex.Message}");
+
+                    // Recarregar produtos para a view
+                    model.Products = await _products.GetAllAsync();
+
+                    // Retornar para o carrinho com a mensagem de erro
+                    return View("Cart", model);
+                }
             }
-
-            // Salvar a entidade Order no banco de dados
-            await _orders.AddAsync(order);
-
-            // Enviar mensagem para a fila
-            await _queueService.SendOrderStatusAsync(order);
-
-            // Limpar o OrderViewModel da sessão
-            HttpContext.Session.Remove("OrderViewModel");
-
-            // Redirecionar para a página de confirmação da encomenda
-            return RedirectToAction("ViewOrders");
         }
 
         [HttpGet]

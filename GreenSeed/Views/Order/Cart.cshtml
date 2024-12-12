@@ -1,7 +1,20 @@
 ﻿@model OrderViewModel
+
 <h1>Carrinho</h1>
 
-<!--Formulario para finalizar e criar a encomenda--> 
+@if (!ViewData.ModelState.IsValid)
+
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}
+
+<!-- Formulário para finalizar e criar a encomenda -->
 <form asp-action="PlaceOrder" method="post">
     <table class="table table-bordered">
         <thead>
@@ -16,10 +29,15 @@
             @for (int i = 0; i < Model.OrderItems.Count; i++)
             {
                 <tr>
-                    <td>@Model.OrderItems[i].ProductName</td>
+                    <td>
+                        @Model.OrderItems[i].ProductName
+                        <!-- Exibir a quantidade disponível em estoque -->
+                        <br />
+                        <small>Disponível: @Model.Products.FirstOrDefault(p => p.ProductId == Model.OrderItems[i].ProductId)?.Stock</small>
+                    </td>
                     <td>@Model.OrderItems[i].Quantity</td>
                     <td>@Model.OrderItems[i].Price</td>
-                    <td></td>
+                    <td>@(Model.OrderItems[i].Price * Model.OrderItems[i].Quantity)</td>
                 </tr>
             }
             <tr>

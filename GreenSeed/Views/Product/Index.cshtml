@@ -32,8 +32,8 @@
                         <h5 class="card-title">@prod.Name</h5>
                         <p class="card-text">@prod.Description</p>
                         <p class="card-text">@prod.Price.ToString("C")</p>
-                        <p class="card-text">Quantity In Stock: @prod.Stock</p>
-                        <a class="btn btn-info" asp-controller="Product" asp-action="AddEdit" asp-route-id="@prod.ProductId"><i class="bi bi-pencil-fill">Editar</i></a>
+                        <p class="card-text">Quantidade: @prod.Stock</p>
+                        <a class="btn btn-warning" asp-controller="Product" asp-action="AddEdit" asp-route-id="@prod.ProductId"><i class="bi bi-pencil-fill">Editar</i></a>
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="@GetDeleteModalId(prod)">
                             <i class="bi bi-trash">Apagar</i>
                         </button>

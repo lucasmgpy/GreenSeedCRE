@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eJmM1rKAHZBsCJnN/g3bOdIEc9EH/6ENDRH0Tu1OS6U=",
+  "Hash": "l0Tg+FR8x/5DLqyWrg9unfl73I2zmAFJX00zkucxBOo=",
   "Source": "GreenSeed",
   "BasePath": "_content/GreenSeed",
   "Mode": "Default",
@@ -1364,6 +1364,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\23c812fd-6c5a-47c0-9a62-eefb91a36828_greensingular.png"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\3e64eda1-0f11-4d42-ae83-e7edbf3b02a3_black-widow-aiming-gun-desktop-wallpaper-4k.jpg",
+      "SourceId": "GreenSeed",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\",
+      "BasePath": "_content/GreenSeed",
+      "RelativePath": "images/3e64eda1-0f11-4d42-ae83-e7edbf3b02a3_black-widow-aiming-gun-desktop-wallpaper-4k.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3e64eda1-0f11-4d42-ae83-e7edbf3b02a3_black-widow-aiming-gun-desktop-wallpaper-4k.jpg"
     },
     {
       "Identity": "C:\\Users\\lucas\\source\\repos\\GreenSeedCRE\\GreenSeed\\wwwroot\\images\\405811f4-dabb-476d-80ed-cbf66e1746aa_greensingular.png",

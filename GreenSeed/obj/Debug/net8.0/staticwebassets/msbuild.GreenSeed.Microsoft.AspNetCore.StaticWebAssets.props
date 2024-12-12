@@ -160,6 +160,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\23c812fd-6c5a-47c0-9a62-eefb91a36828_greensingular.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3e64eda1-0f11-4d42-ae83-e7edbf3b02a3_black-widow-aiming-gun-desktop-wallpaper-4k.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>GreenSeed</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GreenSeed</BasePath>
+      <RelativePath>images/3e64eda1-0f11-4d42-ae83-e7edbf3b02a3_black-widow-aiming-gun-desktop-wallpaper-4k.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\3e64eda1-0f11-4d42-ae83-e7edbf3b02a3_black-widow-aiming-gun-desktop-wallpaper-4k.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\405811f4-dabb-476d-80ed-cbf66e1746aa_greensingular.png))">
       <SourceType>Package</SourceType>
       <SourceId>GreenSeed</SourceId>
