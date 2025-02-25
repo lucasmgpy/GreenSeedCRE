@@ -118,12 +118,25 @@ namespace GreenSeed.Areas.Admin.Controllers
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
-            if (user != null)
+            var currentUser = await _userManager.GetUserAsync(User); // Usuário logado
+
+            if (user == null)
             {
-                await _userManager.DeleteAsync(user);
-                TempData["SuccessMessage"] = "Usuário excluído com sucesso!";
+                return NotFound();
             }
+
+            // Impedir que o admin exclua a própria conta
+            if (user.Id == currentUser.Id)
+            {
+                TempData["ErrorMessage"] = "Você não pode excluir sua própria conta!";
+                return RedirectToAction(nameof(Index));
+            }
+
+            await _userManager.DeleteAsync(user);
+            TempData["SuccessMessage"] = "Usuário excluído com sucesso!";
+
             return RedirectToAction(nameof(Index));
         }
+
     }
 }
