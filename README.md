@@ -61,7 +61,6 @@ Modelo de usuário baseado no **ASP.NET Identity**, contendo:
 - Inicializa dados básicos no banco de dados.
 - Cria os papéis `Admin` e `User`.
 - Cria um usuário administrador padrão.
-- ⚠️ **Nota:** O email e a senha estão hardcoded apenas para testes. O correto seria armazenar credenciais no **Azure Key Vault** ou variáveis de ambiente.
 
 ### **UsersController.cs**
 Gerencia a lista de usuários (disponível apenas para `Admin`):
